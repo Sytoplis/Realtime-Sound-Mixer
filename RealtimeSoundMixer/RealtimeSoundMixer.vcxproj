@@ -155,15 +155,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\storage\Assets\SingleAudioAsset.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\storage\Saveable.cpp" />
     <ClCompile Include="src\storage\Scene.cpp" />
-    <ClCompile Include="src\storage\AudioAsset.cpp" />
+    <ClCompile Include="src\storage\Assets\AudioAsset.cpp" />
     <ClCompile Include="src\PollingStation.cpp" />
     <ClCompile Include="src\audio\AudioPlayer.cpp" />
     <ClCompile Include="src\AudioInspector.cpp" />
     <ClCompile Include="src\audio\AudioManager.cpp" />
     <ClCompile Include="src\render\GUIRenderer.cpp" />
     <ClCompile Include="src\render\Window.cpp" />
+    <ClCompile Include="src\storage\TypeIdSystem.cpp" />
     <ClCompile Include="src\vendor\imgui\imgui.cpp" />
     <ClCompile Include="src\vendor\imgui\imgui_demo.cpp" />
     <ClCompile Include="src\vendor\imgui\imgui_draw.cpp" />
@@ -173,8 +176,10 @@
     <ClCompile Include="src\vendor\imgui\imgui_widgets.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\storage\Assets\SingleAudioAsset.h" />
+    <ClInclude Include="src\storage\Saveable.h" />
     <ClInclude Include="src\storage\Scene.h" />
-    <ClInclude Include="src\storage\AudioAsset.h" />
+    <ClInclude Include="src\storage\Assets\AudioAsset.h" />
     <ClInclude Include="src\PollingStation.h" />
     <ClInclude Include="src\audio\AudioPlayer.h" />
     <ClInclude Include="src\AudioInspector.h" />
@@ -182,6 +187,7 @@
     <ClInclude Include="src\render\GLDebug.h" />
     <ClInclude Include="src\render\GUIRenderer.h" />
     <ClInclude Include="src\render\Window.h" />
+    <ClInclude Include="src\storage\TypeIdSystem.h" />
     <ClInclude Include="src\vendor\imgui\imconfig.h" />
     <ClInclude Include="src\vendor\imgui\imgui.h" />
     <ClInclude Include="src\vendor\imgui\imgui_impl_glfw.h" />

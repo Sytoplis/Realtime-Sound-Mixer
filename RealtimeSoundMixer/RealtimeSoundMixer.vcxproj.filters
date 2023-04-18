@@ -54,13 +54,22 @@
     <ClCompile Include="src\PollingStation.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="src\storage\AudioAsset.cpp">
+    <ClCompile Include="src\storage\Assets\AudioAsset.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="src\storage\Scene.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\storage\Saveable.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\storage\Assets\SingleAudioAsset.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="src\storage\TypeIdSystem.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -113,10 +122,19 @@
     <ClInclude Include="src\PollingStation.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="src\storage\AudioAsset.h">
+    <ClInclude Include="src\storage\Assets\AudioAsset.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="src\storage\Scene.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\storage\Saveable.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\storage\Assets\SingleAudioAsset.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="src\storage\TypeIdSystem.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
